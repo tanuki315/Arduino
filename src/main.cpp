@@ -23,5 +23,4 @@ void display_score(int score){
   PORTB |= (1<<PORTB5);
   PORTB &= ~(1<<PORTB4);
   delay(10);
-  //comment
 }
